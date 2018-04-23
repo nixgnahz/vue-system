@@ -1,6 +1,16 @@
 # system
 
-> A Vue.js project
+> A system Vue.js project
+
+vue-router
+vuex
+axios
+
+Element
+iView
+
+Echarts
+vuedraggable
 
 ## Build Setup
 
