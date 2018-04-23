@@ -27,7 +27,12 @@
       }
     },
     created () {
-      this.activeIndex = this.$route.path;
+      if(this.$route.path.match(/^\/activity\/sponsor/)) {
+        this.activeIndex = "/activity/sponsor/step1";
+      }
+      if(this.$route.path.match(/^\/activity\/manage/)) {
+        this.activeIndex = "/activity/manage";
+      }
     }
   }
 </script>
