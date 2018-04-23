@@ -92,7 +92,7 @@
         })
       },
       showDetail () {
-        this.$router.push({name: 'details', params: {info: 'info1'}})
+        this.$router.push({name: 'sign'})
       }
     }
   }

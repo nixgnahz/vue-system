@@ -7,8 +7,6 @@
       <Col span="6">浏览数：1236</Col>
     </Row>
     <el-menu :default-active="activeTab" class="el-menu-demo" mode="horizontal" :router="isRouter">
-      <el-menu-item index="/activity/manage/detail/details">活动详情</el-menu-item>
-      <el-menu-item index="/activity/manage/detail/enroll">报名管理</el-menu-item>
       <el-menu-item index="/activity/manage/detail/sign">签到</el-menu-item>
       <el-menu-item index="/activity/manage/detail/static">数据统计</el-menu-item>
       <el-menu-item index="/activity/manage/detail/evaluate">评价管理</el-menu-item>
@@ -22,7 +20,7 @@
     data () {
       return {
         isRouter: true,
-        activeTab: "/activity/manage/detail/details"
+        activeTab: "/activity/manage/detail/sign"
       }
     },
     created: function (){

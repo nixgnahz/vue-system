@@ -20,11 +20,14 @@
     created () {
       if(this.$route.path.match(/^\/echart\//)) {
         this.activeIndex = "/echart";
-      } else if(this.$route.path.match(/^\/activity\//)) {
+      }
+      if(this.$route.path.match(/^\/activity\//)) {
         this.activeIndex = "/activity";
-      } else if(this.$route.path.match(/^\/info\//)) {
+      }
+      if(this.$route.path.match(/^\/info\//)) {
         this.activeIndex = "/info";
-      } else if(this.$route.path.match(/^\/general\//)) {
+      }
+      if(this.$route.path.match(/^\/general\//)) {
         this.activeIndex = "/general";
       }
     },

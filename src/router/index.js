@@ -28,8 +28,6 @@ import Manage from '../components/activity/manage/Index.vue'
 import All from '../components/activity/manage/All.vue'
 import Detail from '../components/activity/manage/Detail.vue'
 
-import Details from '../components/activity/manage/detail/Details.vue'
-import Enroll from '../components/activity/manage/detail/Enroll.vue'
 import Sign from '../components/activity/manage/detail/SignIn.vue'
 import Static from '../components/activity/manage/detail/Static.vue'
 import Evaluate from '../components/activity/manage/detail/Evaluate.vue'
@@ -123,17 +121,7 @@ export default new Router({
               children: [
                 {
                   path: '/',
-                  redirect: 'details'
-                },
-                {
-                  path: 'details',
-                  name: 'details',
-                  component: Details
-                },
-                {
-                  path: 'enroll',
-                  name: 'enroll',
-                  component: Enroll
+                  redirect: 'sign'
                 },
                 {
                   path: 'sign',
