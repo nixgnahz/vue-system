@@ -1,0 +1,46 @@
+{
+  "registrations": 400,
+  "views": 800,
+  "data": [
+    {
+      "id": 0,
+      "name": "植树节活动",
+      "type": "免费活动",
+      "type_id": 1,
+      "status": "已结束",
+      "status_id": 3,
+      "views": 200,
+      "registrations": 100
+    },
+    {
+      "id": 1,
+      "name": "清明祭祀",
+      "type": "收费活动",
+      "type_id": 2,
+      "status": "已结束",
+      "status_id": 3,
+      "views": 200,
+      "registrations": 100
+    },
+    {
+      "id": 2,
+      "name": "五一春游",
+      "type": "收费活动",
+      "type_id": 2,
+      "status": "报名中",
+      "status_id": 1,
+      "views": 200,
+      "registrations": 100
+    },
+    {
+      "id": 3,
+      "name": "周末烧烤",
+      "type": "收费活动",
+      "type_id": 2,
+      "status": "进行中",
+      "status_id": 2,
+      "views": 200,
+      "registrations": 100
+    }
+  ]
+}
