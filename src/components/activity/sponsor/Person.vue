@@ -119,6 +119,10 @@
     margin-left: 1rem;
   }
 
+  .ivu-form-item {
+    margin-bottom: 7.5px;
+  }
+
   .parent .ivu-form-item-content{
     display: flex;
   }
