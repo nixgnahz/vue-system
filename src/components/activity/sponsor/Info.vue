@@ -4,7 +4,7 @@
       <FormItem label="活动名称" prop="name">
         <Input v-model="formData.required.name" placeholder="请输入活动名称" style="width:250px;"></Input>
       </FormItem>
-      <FormItem label="活动名称" required>
+      <FormItem label="活动类型" required>
         <RadioGroup v-model="formData.required.type" size="large">
           <Radio label="测试活动"></Radio>
           <Radio label="精彩活动"></Radio>
