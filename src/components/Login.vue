@@ -65,6 +65,4 @@
     flex-direction: row;
     justify-content: center;
   }
-
-
 </style>
