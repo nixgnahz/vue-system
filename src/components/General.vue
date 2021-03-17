@@ -6,6 +6,7 @@
 </template>
 
 <script>
+//22222
   import NavBar from './general/NavBar.vue'
   export default {
     components: {
