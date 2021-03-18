@@ -6,7 +6,6 @@
 </template>
 
 <script>
-//  2222
   import NavBar from './activity/NavBar.vue'
   export default {
     components: {
